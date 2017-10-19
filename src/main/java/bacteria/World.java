@@ -11,4 +11,8 @@ public class World {
     return liveCellCoordinatesInWorld;
   }
 
+  public void addLiveCellsAt(Coordinates newCell) {
+    liveCellCoordinatesInWorld.add(newCell);
+  }
+
 }
