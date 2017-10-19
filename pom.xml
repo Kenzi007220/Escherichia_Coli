@@ -7,6 +7,18 @@
   <groupId>Escherichia_Coli</groupId>
   <artifactId>Escherichia_Coli</artifactId>
   <version>1.0-SNAPSHOT</version>
-
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.16.14</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+    </dependency>
+  </dependencies>
 
 </project>
